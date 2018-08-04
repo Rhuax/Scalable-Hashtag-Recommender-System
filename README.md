@@ -1,6 +1,6 @@
 # Scalable Hashtag Recommender System
 
-An hashtag recommender system based on k-means, mini-batch fast k-means and a deep learning feature extraction phase.[1]
+A hashtag recommender system based on k-means, mini-batch fast k-means and a deep learning feature extraction phase.[1]
   Usage: hashtag-recommender-system [OPTIONS]
   Recommends appropriate hashtags for a given image.
 
