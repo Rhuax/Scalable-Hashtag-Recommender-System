@@ -1,7 +1,6 @@
 # Scalable Hashtag Recommender System
 
-Hashtag inference from a given image using k-means or fast k-means clustering,
-
+An hashtag recommender system based on k-means, mini-batch fast k-means and a deep learning feature extraction phase.[1]
   Usage: hashtag-recommender-system [OPTIONS]
   Recommends appropriate hashtags for a given image.
 
@@ -25,3 +24,6 @@ spark-submit --master spark://ip-<masterip> --driver-memory 25G --executors-memo
  -c minibatch -i 20 -b 10000  -m spark://ip-<masterip>:7077
   
   driver-memory, executors-memory and executor core are parameters of master and slaves machines. Spark default uses only 1 GB on each machine.
+
+
+[1]=https://www.eecs.tufts.edu/~dsculley/papers/fastkmeans.pdf
