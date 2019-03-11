@@ -1,6 +1,5 @@
-#hashtag-recommender-system v0.1. Copyright © the Dream Team. Distributed under the MIT license.
-
 ```
+#hashtag-recommender-system v0.1. Copyright © the Dream Team. Distributed under the MIT license.
 ████████╗██╗  ██╗███████╗    ██████╗ ██████╗ ███████╗ █████╗ ███╗   ███╗    ████████╗███████╗ █████╗ ███╗   ███╗
 ╚══██╔══╝██║  ██║██╔════╝    ██╔══██╗██╔══██╗██╔════╝██╔══██╗████╗ ████║    ╚══██╔══╝██╔════╝██╔══██╗████╗ ████║
    ██║   ███████║█████╗      ██║  ██║██████╔╝█████╗  ███████║██╔████╔██║       ██║   █████╗  ███████║██╔████╔██║
