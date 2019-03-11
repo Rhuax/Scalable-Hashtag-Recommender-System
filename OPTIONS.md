@@ -1,7 +1,7 @@
 #hashtag-recommender-system v0.1. Copyright © the Dream Team. Distributed under the MIT license.
 
-
- ████████╗██╗  ██╗███████╗    ██████╗ ██████╗ ███████╗ █████╗ ███╗   ███╗    ████████╗███████╗ █████╗ ███╗   ███╗
+```
+████████╗██╗  ██╗███████╗    ██████╗ ██████╗ ███████╗ █████╗ ███╗   ███╗    ████████╗███████╗ █████╗ ███╗   ███╗
 ╚══██╔══╝██║  ██║██╔════╝    ██╔══██╗██╔══██╗██╔════╝██╔══██╗████╗ ████║    ╚══██╔══╝██╔════╝██╔══██╗████╗ ████║
    ██║   ███████║█████╗      ██║  ██║██████╔╝█████╗  ███████║██╔████╔██║       ██║   █████╗  ███████║██╔████╔██║
    ██║   ██╔══██║██╔══╝      ██║  ██║██╔══██╗██╔══╝  ██╔══██║██║╚██╔╝██║       ██║   ██╔══╝  ██╔══██║██║╚██╔╝██║
@@ -9,18 +9,18 @@
    ╚═╝   ╚═╝  ╚═╝╚══════╝    ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝       ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝
 
 
-  Usage: hashtag-recommender-system [OPTIONS]
-  Recommends appropriate hashtags for a given image.
+  Usage: hashtag-recommender-system [OPTIONS]  
+  Recommends appropriate hashtags for a given image.  
 
-  -b, --batch-size  <Batch Size>                 Number of sample taken after
-                                                 each iteration of minibatch
-                                                 kmeans
-      --centroid-similarity  <arg>               Minimum cosine similarity
-                                                 between the sets of centroids
-                                                 between 2 iterations to stop
-                                                 the clusterization process.
-      --closest-images  <arg>                    Number of the most similar
-                                                 images to consider for
+  -b, --batch-size  <Batch Size>                 Number of sample taken after  
+                                                 each iteration of minibatch  
+                                                 kmeans  
+      --centroid-similarity  <arg>               Minimum cosine similarity  
+                                                 between the sets of centroids  
+                                                 between 2 iterations to stop  
+                                                 the clusterization process.  
+      --closest-images  <arg>                    Number of the most similar  
+                                                 images to consider for  
                                                  predicting hashtags.
   -c, --clustering-method  <Clustering Method>   Name of the algorythm to use
                                                  for clusterizing the dataset,
@@ -67,3 +67,4 @@
                                                  system will be able to predict
   -h, --help                                     Show help message
   -v, --version                                  Show version of this program
+```
